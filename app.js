@@ -88,8 +88,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(array) {
-  var product= array[0] * array[1] * array[2]
-  var productString='The numbers ' + array[0] + ',' + array[1] + ',' + array[2] + ' have a product of ' + product +  '.';
+  var product = array[0] * array[1] * array[2];
+  var productString = 'The numbers ' + array[0] + ',' + array[1] + ',' + array[2] + ' have a product of ' + product + '.';
   var newArray = [product, productString];
   console.log (newArray);
   return newArray;
